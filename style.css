@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?w=996&t=st=1671096486~exp=1671097086~hmac=9f66dbe6d9d2b8e4737064553f62e3d918eeff2b2beaf6fe82a3b322e1f76306") ;
+}
+.text2{
+    font-size: 20px;
+    color:black;
+}
+.text{
+    font-size: 15px;
+}
+.text1{
+    margin-top: 4px;
+    font-size: 15px;
+}
+.container{
+    margin-top: 50px;
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#input_box{
+    margin-top: 5px;
+    width:150px;
+    height:30px;
+}
+#select_box{
+    width:150px;
+    height:30px;
+}
+#People_Box{
+    margin-top: 5px;
+    width:80px;
+    height:30px;
+    margin-right: 1rem;
+}
+#button_Box{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    background-color:bisque;
+    color:black
+
+}
